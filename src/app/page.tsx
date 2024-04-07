@@ -2,7 +2,7 @@ import Image from "next/image";
 import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 export default function Home() {
   return (
-    <main className="">
+    <main className="scrollbar-hide">
       <div className="bg-fixed flex items-center align-middle justify-center text-8xl font-bold  bg-center bg-cover to-black h-screen from-slate-800 bg-gradient-radial">
         <h1 className="text-center text-white">Niall Sharma</h1>
 
