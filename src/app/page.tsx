@@ -4,8 +4,7 @@ export default function Home() {
   return (
     <main className="scrollbar-hide">
       <div className="flex items-center align-middle justify-center text-8xl font-bold bg-center bg-cover to-black h-screen bg-gradient-radial from-purple-950 bg-fixed">
-        <h1 className="text-center text-white uppercase">Niall <br />Sharma</h1>
-
+        <h1 className="text-white uppercase"><span className="text-2xl">Hi! my name is </span><br /> Niall <br />Sharma </h1>
       </div>
       <div className="p-20 bg-stone-900 flex flex-wrap">
           <div className="w-full md:w-1/2">
