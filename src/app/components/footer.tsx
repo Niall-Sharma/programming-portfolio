@@ -14,7 +14,7 @@ export default function Footer() {
                 </ul>
             </div>
             <hr />
-            <h1 className="text-center text-6xl mt-5">© {year}</h1>
+            <h1 className="text-center text-6xl mt-5 text-white">© {year}</h1>
         </footer>
         </>
     );
