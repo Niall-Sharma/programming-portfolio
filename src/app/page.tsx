@@ -1,11 +1,13 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
-      <div>
-        <h1 className="text-8xl font-bold flex  min-h-screen justify-center align-middle text-center bg-gradient-to-r from-cyan-500 to-blue-500">Niall Sharma</h1>
+    <main className=" ">
+      <div className="bg-fixed flex w-screen text-8xl font-bold justify-center items-center align-middle text-center bg-center bg-cover to-black h-screen from-slate-800 bg-gradient-radial">
+        <h1 className="">Niall Sharma</h1>
       </div>
-         
+      <div className="p-20 bg-slate-950">
+        <p className="text-cyan-500">HELP</p>
+      </div>   
     </main>
   );
 }

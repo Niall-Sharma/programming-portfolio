@@ -3,7 +3,7 @@ import NavButton from "./navbutton";
 export default function Navbar() {
     return(
         <>
-            <nav className="sticky top-0 drop-shadow-xl flex flex-wrap bg-black flex-start justify-between">
+            <nav className="sticky top-0 drop-shadow-xl flex flex-wrap flex-start justify-between py-3 bg-stone-900">
                 <div>
                     <ul className="flex flex-col lg:flex-row">
                         <NavButton pageLink="/" pageName="Home" />
