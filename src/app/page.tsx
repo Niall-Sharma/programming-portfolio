@@ -1,13 +1,22 @@
-
+import Image from "next/image";
+import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 export default function Home() {
   return (
-    <main className=" ">
+    <main className="">
       <div className="bg-fixed flex items-center align-middle justify-center text-8xl font-bold  bg-center bg-cover to-black h-screen from-slate-800 bg-gradient-radial">
-        <h1 className="text-center ">Niall Sharma</h1>
+        <h1 className="text-center text-white">Niall Sharma</h1>
 
       </div>
-      <div className="p-20 bg-stone-900">
-        <p className="text-cyan-500">Hi</p>
+      <div className="p-20 bg-stone-900 flex items">
+          <div className="w-1/2">
+            <p className="text-white text-xl">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
+          </div>
+            <Image 
+            src={Niall} 
+            width={1920} 
+            height={1080} 
+            alt="Picture of Niall Sharma"
+            className="w-1/2"/>
       </div>   
     </main>
   );

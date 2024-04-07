@@ -30,8 +30,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 }
 
-.customBackground{
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fcaitlin-clark&psig=AOvVaw3fZgTtGRf2KJIkHCBaDR_a&ust=1712553300595000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID0zqqsr4UDFQAAAAAdAAAAABAI");
-}
+/* Hide scrollbar for IE, Edge and Firefox */
