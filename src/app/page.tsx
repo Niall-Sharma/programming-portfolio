@@ -19,15 +19,17 @@ export default function Home() {
             alt="Picture of Niall Sharma"
             className="w-full md:w-1/3"/>
       </div>  
-      <h1 className="min-h-full bg-stone-900 text-center text-6xl pb-12">Featured Projects</h1>
+      <h1></h1>
+      <h1 className="min-h-full bg-stone-900 text-center text-6xl pb-12 text-white">Featured Projects</h1>
       <div
-      className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10">
+      className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10 justify-center align-middle items-start">
 
-        <FeaturedProject pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
-        <FeaturedProject pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit."  />
-        <FeaturedProject pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
+        <FeaturedProject pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur" />
+        <FeaturedProject pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
+        <FeaturedProject pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." />
 
       </div> 
+      
       <div className="flex min-h-full bg-stone-900 py-10 justify-center">
         <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">See More</Link>
       </div>
