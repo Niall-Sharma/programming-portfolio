@@ -28,9 +28,9 @@ export default function Home() {
       <div
       className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10 justify-center align-middle items-start">
 
-        <ProjectCard githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
-        <ProjectCard githubLink="/" pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
-        <ProjectCard githubLink="/" pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." />
+        <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
+        <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
+        <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." />
 
       </div> 
       
