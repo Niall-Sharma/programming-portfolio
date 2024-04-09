@@ -9,7 +9,7 @@ export default function ProjectCard( {pageLink, projectName, imageLink, projectD
                         alt="project image" 
                         height={900}
                         width={600}
-                        className="group-hover:brightness-50 group-hover:ease-in transition-all rounded-md w-full"
+                        className="hover:brightness-50 hover:ease-in transition-all rounded-md w-full"
                         />
                 </Link>
                 <div>

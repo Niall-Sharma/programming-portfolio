@@ -9,7 +9,7 @@ export default function FeaturedProject( {pageLink, projectName, imageLink, proj
                         alt="project image" 
                         height={900}
                         width={600}
-                        className="group-hover:brightness-50 group-hover:ease-in transition-all rounded-md w-full"
+                        className="hover:brightness-50 hover:ease-in transition-all rounded-md w-full"
                         />
                 </Link>
                 <div>

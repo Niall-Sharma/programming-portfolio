@@ -31,7 +31,7 @@ export default function Home() {
       </div> 
       
       <div className="flex min-h-full bg-stone-900 py-10 justify-center">
-        <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">See More</Link>
+        <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">See All</Link>
       </div>
     </main>
   );

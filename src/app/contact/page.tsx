@@ -4,7 +4,7 @@ export default function Projects() {
         <div className="p-20 bg-stone-900 mx-40">
           <h1 className="text-white text-6xl text-center">Contact</h1>
           <div className="text-start mt-10">
-            <h2>Niall.k.sharma@gmail.com</h2>
+            <h2 className="text-white">Niall.k.sharma@gmail.com</h2>
           </div>
         </div>
            
