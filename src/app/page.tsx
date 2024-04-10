@@ -26,7 +26,7 @@ export default function Home() {
       </div>  
       <h1></h1>
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full">Featured Projects</h1>  
-      <div className="grid grid-cols-1 lg:grid-cols-3 bg-stone-900 p-0 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." />
