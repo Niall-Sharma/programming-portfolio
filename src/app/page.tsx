@@ -23,7 +23,6 @@ export default function Home() {
             alt="Picture of Niall Sharma"
             className="w-1/2 md:w-1/3 drop-shadow-xl bg-stone-800 lg:rounded-full lg:aspect-square aspect-auto rounded-none"/>
       </div>  
-      <h1></h1>
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full">Featured Projects</h1>  
       <div className="grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
