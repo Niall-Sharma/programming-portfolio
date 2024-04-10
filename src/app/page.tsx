@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className=" py-52 bg-stone-900 flex flex-wrap space-x-20 items-center justify-center">
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
-            <h2 className="text-center font-bold text-4xl pb-10">About Me</h2>
+            <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
             <p className="text-white text-lg">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
           </div>
             <Image 
@@ -39,14 +39,14 @@ export default function Home() {
         <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">View All</Link>
       </div>
       <div className="bg-stone-900 text-center w-full py-10 justify-center flex flex-wrap">
-        <h1 className="text-4xl font-bold">Contact Me</h1>
+        <h1 className="text-4xl font-bold text-white">Contact Me</h1>
         <div className="w-full py-5"></div>
         <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
-          <p className="text-left mr-auto">Personal</p>
-          <p className="text-right ml-auto">Professional</p>
+          <p className="text-left mr-auto text-white">Personal</p>
+          <p className="text-right ml-auto text-white">Professional</p>
           <div className="w-full"></div>
-          <p className="text-left">Niall.k.sharma@gmail.com</p>
-          <p className="text-right ml-auto">Niall.k.sharma@gmail.com</p>
+          <p className="text-left text-white">Niall.k.sharma@gmail.com</p>
+          <p className="text-right ml-auto text-white">Niall.k.sharma@gmail.com</p>
 
         </div>
       </div>
