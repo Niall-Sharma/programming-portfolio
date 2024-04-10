@@ -13,7 +13,8 @@ export default function Home() {
         </div>
       </div>
       <div className=" py-52 bg-stone-900 flex flex-wrap space-x-20 items-center justify-center">
-          <div className="w-full md:w-1/3">
+          <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
+            <h2 className="text-center font-bold text-4xl pb-10">About Me</h2>
             <p className="text-white text-lg">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
           </div>
             <Image 
@@ -21,7 +22,7 @@ export default function Home() {
             width={1920} 
             height={1080} 
             alt="Picture of Niall Sharma"
-            className="w-full md:w-1/3"/>
+            className="w-full md:w-1/3 drop-shadow-xl bg-stone-800 "/>
       </div>  
       <h1></h1>
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold">Featured Projects</h1>
