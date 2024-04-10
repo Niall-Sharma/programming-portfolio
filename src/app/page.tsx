@@ -24,7 +24,22 @@ export default function Home() {
             alt="Picture of Niall Sharma"
             className="w-full md:w-1/3 drop-shadow-xl bg-stone-800 "/>
       </div>  
-      <h1></h1>
+      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold">Skills</h1>
+      <div className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10 justify-center items-start pb-20">
+        <div className="bg-stone-800 p-20 text-left">
+          <ul className="list-disc leading-10">
+            <li>
+              Eiusmod mollit quis sunt anim adipisicing anim proident do.
+            </li>
+            <li>
+            Eiusmod mollit quis sunt anim adipisicing anim proident do.            
+            </li>
+            <li>
+            Eiusmod mollit quis sunt anim adipisicing anim proident do.            
+            </li>
+          </ul>
+        </div>
+      </div>
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold">Featured Projects</h1>
       <div
       className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10 justify-center align-middle items-start">
