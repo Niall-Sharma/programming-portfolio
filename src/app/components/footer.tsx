@@ -7,7 +7,7 @@ export default function Footer() {
     return(
         <>
         <footer className="p-5 bg-stone-900">
-            <div className="flex items-center align-middle justify-center">
+            <div className="flex items-center align-middle justify-center flex-wrap">
             <h1 className="text-lg mb-5 text-white text-center">© {year} Niall Sharma -- made with React.js, Next.js, and Tailwind CSS</h1>
                 <ul className="flex flex-col lg:flex-row mb-5 space-x-5 ml-auto">
                     <Link href={"https://github.com/Niall-Sharma"} target="_BLANK" className="hover:opacity-50 hover:ease-in transition-opacity invert">
