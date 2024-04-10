@@ -24,7 +24,7 @@ export default function Home() {
             className="w-full md:w-1/3"/>
       </div>  
       <h1></h1>
-      <h1 className="min-h-full bg-stone-900 text-center text-6xl pb-12 text-white">Featured Projects</h1>
+      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold">Featured Projects</h1>
       <div
       className="flex flex-col lg:flex-row bg-stone-900 lg:px-32 lg:space-x-10 justify-center align-middle items-start">
 
@@ -36,6 +36,18 @@ export default function Home() {
       
       <div className="flex min-h-full bg-stone-900 py-10 justify-center">
         <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">View All</Link>
+      </div>
+      <div className="bg-stone-900 text-center w-full py-10 justify-center flex flex-wrap">
+        <h1 className="text-4xl font-bold">Contact Me</h1>
+        <div className="w-full py-5"></div>
+        <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
+          <p className="text-left mr-auto">Personal</p>
+          <p className="text-right ml-auto">Professional</p>
+          <div className="w-full"></div>
+          <p className="text-left">Niall.k.sharma@gmail.com</p>
+          <p className="text-right ml-auto">Niall.k.sharma@gmail.com</p>
+
+        </div>
       </div>
     </main>
   );
