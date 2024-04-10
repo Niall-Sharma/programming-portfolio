@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
-import FeaturedProject from "./components/featuredProject";
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
 export default function Home() {
   return (
     <main className="scrollbar-hide flex justify-center flex-wrap">
       <div className="flex w-full items-center flex-wrap align-middle justify-center font-bold bg-center bg-cover to-black min-h-screen bg-gradient-radial from-purple-950 bg-fixed">
-        <div>
+        <div className="animate-fade-up animate-once animate-ease-out">
           <h1 className="text-white uppercase text-6xl sm:text-8xl text-wrap "><span className="text-2xl">Hi! my name is </span><br /> Niall <br />Sharma </h1>
           <svg className="invert w-10 h-10 mt-10 animate-bounce ml-auto mr-auto" width="128" height="128" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 12c0-6.623-5.377-12-12-12s-12 5.377-12 12 5.377 12 12 12 12-5.377 12-12zm-1 0c0-6.071-4.929-11-11-11s-11 4.929-11 11 4.929 11 11 11 11-4.929 11-11zm-11.5 4.828l-3.763-4.608-.737.679 5 6.101 5-6.112-.753-.666-3.747 4.604v-11.826h-1v11.828z"/></svg>
         </div>
@@ -19,10 +18,10 @@ export default function Home() {
           </div>
             <Image 
             src={Niall} 
-            width={1920} 
-            height={1080} 
+            width={1080} 
+            height={1980} 
             alt="Picture of Niall Sharma"
-            className="w-full md:w-1/3 drop-shadow-xl bg-stone-800 "/>
+            className="w-1/2 md:w-1/3 drop-shadow-xl bg-stone-800 lg:rounded-full lg:aspect-square aspect-auto rounded-none"/>
       </div>  
       <h1></h1>
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full">Featured Projects</h1>  
