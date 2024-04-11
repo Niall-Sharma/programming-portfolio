@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <main className=" min-h-screen items-center p-24 bg-stone-900 flex justify-center">
       <div className="bg-stone-800 p-20 drop-shadow-xl w-full">
-        <form>
+        <form action={process.env.form_id} method="POST">
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-md font-bold leading-6 text-white">
@@ -58,8 +58,7 @@ export default function Contact() {
           <div className="mt-12 flex items-center justify-center gap-x-6">
           <button
             type="submit"
-            className="rounded-sm outline outline-1 hover:text-white hover:ease-in-out transition-all outline-purple-500 px-4 py-2 text-lg font-thin text-purple-500 shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
-          >
+            className="rounded-sm outline outline-1 hover:text-white hover:ease-in-out transition-all outline-purple-500 px-4 py-2 text-lg font-thin text-purple-500 shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500">
             Submit
           </button>
         </div>
