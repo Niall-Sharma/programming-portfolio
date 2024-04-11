@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ProjectCard( {pageLink, projectName, imageLink, projectDescription, githubLink, projecttype}:any ) {
     return(
-        <div className="group relative bg-stone-800 drop-shadow-xl  max-w-sm break-all">
+        <div className="group relative bg-stone-800 drop-shadow-xl  max-w-sm break-all hover:scale-105 hover:ease-in-out transition-transform duration-500">
                 <Link href={pageLink} >
                         <Image 
                         src={imageLink} 
