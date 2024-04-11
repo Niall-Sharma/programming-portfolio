@@ -17,9 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scrollbar-hide">
+      <body>
       <Navbar />
       {children}
       <Footer />
+      </body>
     </html>
   );
 }

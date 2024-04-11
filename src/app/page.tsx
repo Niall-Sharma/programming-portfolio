@@ -11,7 +11,7 @@ export default function Home() {
           <svg className="invert w-10 h-10 mt-10 animate-bounce ml-auto mr-auto" width="128" height="128" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 12c0-6.623-5.377-12-12-12s-12 5.377-12 12 5.377 12 12 12 12-5.377 12-12zm-1 0c0-6.071-4.929-11-11-11s-11 4.929-11 11 4.929 11 11 11 11-4.929 11-11zm-11.5 4.828l-3.763-4.608-.737.679 5 6.101 5-6.112-.753-.666-3.747 4.604v-11.826h-1v11.828z"/></svg>
         </div>
       </div>
-      <div className=" py-52 bg-stone-900 flex flex-wrap lg:space-x-20 items-center justify-center">
+      <div className=" py-20 bg-stone-900 flex flex-wrap lg:space-x-20 items-center justify-center">
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
             <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
             <p className="text-white text-lg">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
