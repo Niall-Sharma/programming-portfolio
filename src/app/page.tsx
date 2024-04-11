@@ -21,7 +21,7 @@ export default function Home() {
             width={1080} 
             height={1980} 
             alt="Picture of Niall Sharma"
-            className="w-1/2 md:w-1/3 drop-shadow-xl bg-stone-900 lg:rounded-full lg:aspect-square lg:p-20  aspect-auto rounded-none"/>
+            className="w-1/2 md:w-1/3 bg-stone-900 lg:rounded-full lg:aspect-square lg:p-20  aspect-auto rounded-none"/>
       </div>  
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full">Featured Projects</h1>  
       <div className="grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
