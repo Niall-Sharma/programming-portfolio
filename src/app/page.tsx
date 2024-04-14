@@ -2,6 +2,7 @@ import Image from "next/image";
 import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
+import SkillCard from "./components/skillCard";
 export default function Home() {
   return (
     <main className="scrollbar-hide flex justify-center flex-wrap">
@@ -23,7 +24,18 @@ export default function Home() {
             alt="Picture of Niall Sharma"
             className="w-1/2 md:w-1/3 bg-stone-900 lg:rounded-full lg:aspect-square lg:p-20  aspect-auto rounded-none"/>
       </div>  
-      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full">Featured Projects</h1>  
+      <div className="bg-stone-900 w-full justify-center flex flex-wrap">
+        <h1 className="text-4xl font-bold text-white">Skills</h1>
+        <div className="w-full py-5"></div>
+          <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
+            <div className="grid grid-cols-3 gap-10">
+              <SkillCard skillName="React" imageLink={Niall} />
+            </div>
+          </div>
+      </div>
+
+
+      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-20">Featured Projects</h1>  
       <div className="grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
         <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
@@ -33,17 +45,8 @@ export default function Home() {
       <div className="flex min-h-full bg-stone-900 py-10 justify-center w-full">
         <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">View All</Link>
       </div>
-      <div className="bg-stone-900 text-center w-full py-10 justify-center flex flex-wrap">
-        <h1 className="text-4xl font-bold text-white">Contact Me</h1>
-        <div className="w-full py-5"></div>
-        <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
-          <p className="text-left mr-auto text-white">Personal</p>
-          <p className="text-right ml-auto text-white">Professional</p>
-          <div className="w-full"></div>
-          <p className="text-left text-white">Niall.k.sharma@gmail.com</p>
-          <p className="text-right ml-auto text-white">Niall.k.sharma@gmail.com</p>
-
-        </div>
+      <div className="flex min-h-full bg-stone-900 py-10 justify-center w-full">
+        <Link href={"/contact"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">Contact Me</Link>
       </div>
     </main>
   );
