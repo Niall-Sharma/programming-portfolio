@@ -54,7 +54,7 @@ export default function Home() {
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-40">Contact Me!</h1>  
       <section className="bg-stone-900 flex w-full justify-center">
         <div className="w-full sm:w-2/3 bg-stone-800 p-20 flex flex-wrap justify-center">
-          <p className="text-center text-2xl pb-10">I'm looking for any job oppurtunities so please send me a message!</p>
+          <p className="text-center text-2xl pb-10">I&apos;m looking for any job oppurtunities so please send me a message!</p>
           <div className="w-full" />
           <Link href={"/contact"} className="flex text-center px-5 py-3 text-2xl rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">Contact</Link>
 
