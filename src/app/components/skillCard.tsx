@@ -9,11 +9,9 @@ export default function SkillCard( {skillName, imageLink}:any ) {
                     width={600}
                     className="hover:brightness-50 hover:ease-in transition-all rounded-md w-full"
                     />
-                    <div className="flex flex-row-reverse justify-center items-center align-middle w-full">   
-                        <p className="absolute text-4xl uppercase font-bold text-white break-normal">
+                        <p className="absolute text-4xl uppercase font-bold text-white break-normal text-center justify-center">
                             {skillName}
                         </p>
-                    </div>
         </div>
     );
 }

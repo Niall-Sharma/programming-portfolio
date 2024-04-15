@@ -6,7 +6,7 @@ var year = currentTime.getFullYear()
 export default function Footer() {
     return(
         <>
-        <footer className="p-5 bg-stone-900">
+        <footer className="p-5 bg-stone-900 pt-32">
             <div className="flex items-center align-middle justify-center flex-wrap">
             <h1 className="text-lg mb-5 text-white text-center">© {year} Niall Sharma -- made with React.js, Next.js, and Tailwind CSS</h1>
                 <ul className="flex end-0 items-center ml-auto mr-10 flex-row">

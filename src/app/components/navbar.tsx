@@ -1,5 +1,8 @@
+'use client'
 import Link from "next/link";
 import NavButton from "./navbutton";
+import { useRef } from "react";
+
 export default function Navbar() {
     return(
         <>
