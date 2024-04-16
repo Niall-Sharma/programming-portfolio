@@ -3,7 +3,6 @@ import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
 
-import SkillCard from "./components/skillCard";
 
 
 
