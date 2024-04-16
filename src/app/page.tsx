@@ -2,7 +2,12 @@ import Image from "next/image";
 import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
+
 import SkillCard from "./components/skillCard";
+
+
+
+
 export default function Home() {
   return (
     <main className="scrollbar-hide flex justify-center flex-wrap">
@@ -29,9 +34,31 @@ export default function Home() {
       <section className="bg-stone-900 w-full justify-center flex flex-wrap">
         <h1 className="text-4xl font-bold text-white">Skills</h1>
         <div className="w-full py-5"></div>
-          <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
+          <div className="bg-stone-900 rounded-sm p-10 flex flex-wrap">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-              <SkillCard skillName="React" imageLink={Niall} />
+             <ul className="bg-stone-800 p-10 drop-shadow-lg">
+              <h1 className="text-2xl font-bold pb-5">Languages</h1>
+              <li>C#</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavScript</li>
+              <li>HTML/CSS</li>
+              <li>TypeScript</li>
+             </ul>
+
+             <ul className="bg-stone-800 p-10 drop-shadow-lg">
+              <h1 className="text-2xl font-bold pb-5">Frameworks</h1>
+                <li>NextJS</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+              </ul>
+
+              <ul className="bg-stone-800 p-10 drop-shadow-lg">
+                <h1 className="text-2xl font-bold pb-5">Other Tools</h1>
+                  <li>VS Code</li>
+                  <li>Git</li>
+              </ul>
             </div>
           </div>
       </section>

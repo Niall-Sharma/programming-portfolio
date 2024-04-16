@@ -5,13 +5,15 @@ export default function SkillCard( {skillName, imageLink}:any ) {
                     <Image 
                     src={imageLink} 
                     alt="project image" 
-                    height={900}
-                    width={600}
-                    className="hover:brightness-50 hover:ease-in transition-all rounded-md w-full"
+                    height={1920}
+                    width={1080}
+                    className="hover:ease-in transition-all rounded-md w-full h-full hover:brightness-50"
                     />
-                        <p className="absolute text-4xl uppercase font-bold text-white break-normal text-center justify-center">
+                    <div className="flex justify-center items-center w-full align-middle absolute text-center bottom-1/2 opacity-0 group-hover:opacity-100">   
+                        <p className="absolute text-4xl uppercase font-bold text-white">
                             {skillName}
                         </p>
+                    </div>
         </div>
     );
 }
