@@ -2,7 +2,11 @@ import Image from "next/image";
 import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
-import SkillCard from "./components/skillCard";
+
+
+
+
+
 export default function Home() {
   return (
     <main className="scrollbar-hide flex justify-center flex-wrap">
@@ -29,15 +33,37 @@ export default function Home() {
       <section className="bg-stone-900 w-full justify-center flex flex-wrap">
         <h1 className="text-4xl font-bold text-white">Skills</h1>
         <div className="w-full py-5"></div>
-          <div className="drop-shadow-lg bg-stone-800 rounded-sm p-10 flex flex-wrap">
-            <div className="grid grid-cols-3 gap-10">
-              <SkillCard skillName="React" imageLink={Niall} />
+          <div className="bg-stone-900 rounded-sm p-10 flex flex-wrap">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+             <ul className="bg-stone-800 p-10 drop-shadow-lg">
+              <h1 className="text-2xl font-bold pb-5">Languages</h1>
+              <li>C#</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavScript</li>
+              <li>HTML/CSS</li>
+              <li>TypeScript</li>
+             </ul>
+
+             <ul className="bg-stone-800 p-10 drop-shadow-lg">
+              <h1 className="text-2xl font-bold pb-5">Frameworks</h1>
+                <li>NextJS</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+              </ul>
+
+              <ul className="bg-stone-800 p-10 drop-shadow-lg">
+                <h1 className="text-2xl font-bold pb-5">Other Tools</h1>
+                  <li>VS Code</li>
+                  <li>Git</li>
+              </ul>
             </div>
           </div>
       </section>
 
 
-      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-20">Featured Projects</h1>  
+      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-40">Featured Projects</h1>  
       <section className="bg-stone-900 flex w-full justify-center">
         <div className="bg-stone-900 flex flex-wrap">
           <div className="gap-10 grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
@@ -51,9 +77,15 @@ export default function Home() {
         <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">View All</Link>
       </div>
 
-      <div className="flex min-h-full bg-stone-900 py-10 justify-center w-full">
-        <Link href={"/contact"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">Contact Me</Link>
-      </div>
+      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-40">Contact Me!</h1>  
+      <section className="bg-stone-900 flex w-full justify-center">
+        <div className="w-full sm:w-2/3 bg-stone-800 p-20 flex flex-wrap justify-center">
+          <p className="text-center text-2xl pb-10">I&apos;m looking for any job oppurtunities so please send me a message!</p>
+          <div className="w-full" />
+          <Link href={"/contact"} className="flex text-center px-5 py-3 text-2xl rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">Contact</Link>
+
+        </div>
+      </section>
     </main>
   );
 }
