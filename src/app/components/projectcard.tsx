@@ -27,7 +27,7 @@ export default function ProjectCard( {pageLink, projectName, imageLink, projectD
                                     </p>
                                  </div>
                                     <p className="group-hover:opacity-100 group-hover:ease-in py-4 text-white mb-7">{projectDescription}</p>
-                                <Link href={pageLink} className="font-thin absolute left-0 bottom-0 ml-3 mb-5 outline outline-cyan-400 rounded-sm p-2 text-cyan-400 hover:bg-cyan-400 hover:text-white hover:ease-in transition-all outline-1">
+                                <Link href={pageLink} className="font-thin absolute left-0 bottom-0 ml-10 mb-5 outline outline-cyan-400 rounded-sm p-2 text-cyan-400 hover:bg-cyan-400 hover:text-white hover:ease-in transition-all outline-1">
                                     Read More
                                 </Link>
                             </div>

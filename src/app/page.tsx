@@ -34,9 +34,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-white">Skills</h1>
         <div className="w-full py-5"></div>
           <div className="bg-stone-900 rounded-sm p-10 flex flex-wrap">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-             <ul className="bg-stone-800 p-10 drop-shadow-lg">
-              <h1 className="text-2xl font-bold pb-5">Languages</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-xl">
+             <ul className="bg-stone-800 p-10 drop-shadow-lg align-middle">
+              <h1 className="font-bold pb-5 text-3xl">Languages</h1>
               <li>C#</li>
               <li>Java</li>
               <li>Python</li>
@@ -46,7 +46,7 @@ export default function Home() {
              </ul>
 
              <ul className="bg-stone-800 p-10 drop-shadow-lg">
-              <h1 className="text-2xl font-bold pb-5">Frameworks</h1>
+              <h1 className="font-bold pb-5 text-3xl">Frameworks</h1>
                 <li>NextJS</li>
                 <li>React</li>
                 <li>Bootstrap</li>
@@ -54,7 +54,7 @@ export default function Home() {
               </ul>
 
               <ul className="bg-stone-800 p-10 drop-shadow-lg">
-                <h1 className="text-2xl font-bold pb-5">Other Tools</h1>
+                <h1 className="font-bold pb-5 text-3xl">Other Tools</h1>
                   <li>VS Code</li>
                   <li>Git</li>
               </ul>
