@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png"
+import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png";
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
-
+import profilePic from "../../public/PictureOfMe.JPG";
 
 
 
@@ -24,11 +24,11 @@ export default function Home() {
             <p className="text-white text-lg">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
           </div>
             <Image 
-            src={Niall} 
-            width={1080} 
-            height={1980} 
+            src={profilePic} 
+            width={4032} 
+            height={3024} 
             alt="Picture of Niall Sharma"
-            className="w-1/2 md:w-1/3 bg-stone-900 lg:rounded-full lg:aspect-square lg:p-20  aspect-auto rounded-none"/>
+            className="w-1/2 md:w-1/3 bg-stone-900 lg:p-20  aspect-auto rounded-none"/>
       </section>  
       <section className="bg-stone-900 w-full justify-center flex flex-wrap">
         <h1 className="text-4xl font-bold text-white">Skills</h1>
