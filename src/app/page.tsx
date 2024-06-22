@@ -22,7 +22,7 @@ export default function Home() {
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
             <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
             <p className="text-white text-lg">
-              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. I am pursuing a major in Computer Science and a minor in Cybersecurity. I've spent large amounts of time learning web dev tools such as React and I'm commited to always improving myself. 
+              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. I am pursuing a major in Computer Science and a minor in Cybersecurity. I&apos;ve spent large amounts of time learning web dev tools such as React and I&apos;m commited to always improving myself. 
             </p>
           </div>
             <Image 
