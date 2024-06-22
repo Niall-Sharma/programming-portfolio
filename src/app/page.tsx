@@ -21,7 +21,9 @@ export default function Home() {
       <section className=" py-20 bg-stone-900 flex flex-wrap lg:space-x-20 items-center justify-center">
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
             <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
-            <p className="text-white text-lg">Quis aliquip amet sit fugiat duis dolor. Eiusmod laboris est laborum aliquip velit eiusmod. Qui nostrud reprehenderit consectetur sunt velit deserunt nisi et esse nulla ipsum. Quis labore esse occaecat nulla mollit in proident. Do sunt mollit nulla Lorem irure incididunt non in. Do est exercitation ea cupidatat sunt ullamco. Minim ut do irure labore irure aute consectetur esse sit eiusmod ex sunt sunt amet.</p>
+            <p className="text-white text-lg">
+              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. I am pursuing a major in Computer Science and a minor in Cybersecurity. I've spent large amounts of time learning web dev tools such as React and I'm commited to always improving myself. 
+            </p>
           </div>
             <Image 
             src={profilePic} 
