@@ -2,7 +2,7 @@
 import Link from "next/link";
 import NavButton from "./navbutton";
 import { useRef } from "react";
-
+// import resumePDF from "";
 export default function Navbar() {
     return(
         <>
@@ -10,7 +10,7 @@ export default function Navbar() {
                     <ul className="flex flex-col lg:flex-row">
                         <NavButton pageLink="/" pageName="Home" />
                         <NavButton pageLink="/projects" pageName="Projects" />
-                        <NavButton pageLink="/" pageName="Resume" />
+                        <NavButton pageLink="https://drive.google.com/file/d/1gxvRD7BbcuCmWpMzMMZFZQgM-44bPmmL/view?usp=share_link" target="_BLANK" pageName="Resume" />
                         <NavButton pageLink="/contact" pageName="Contact" />
                     </ul>
                     <ul className="flex end-0 items-center ml-auto mr-10 flex-row">
