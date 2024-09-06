@@ -10,7 +10,7 @@ export default function Navbar() {
                     <ul className="flex flex-col lg:flex-row">
                         <NavButton pageLink="/" pageName="Home" />
                         <NavButton pageLink="/projects" pageName="Projects" />
-                        <NavButton pageLink="https://drive.google.com/file/d/1t0-ke54T4y8GRO5J_5MYyN7CFKTEvCn5/view?usp=share_link" target="_BLANK" pageName="Resume" />
+                        <NavButton pageLink="/" target="_BLANK" pageName="Resume" />
                         <NavButton pageLink="/contact" pageName="Contact" />
                     </ul>
                     <ul className="flex end-0 items-center ml-auto mr-10 flex-row">
