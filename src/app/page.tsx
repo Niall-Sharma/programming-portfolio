@@ -6,7 +6,7 @@ import profilePic from "../../public/PictureOfMe.png"
 
 {/* IMAGES */}
 import PlantGameImage from "../../public/PlantGame.png"
-import SpaceShotImage from "../../../public/SpaceShotImage.png"
+import SpaceShotImage from "../../public/SpaceShotImage.png"
 
 export default function Home() {
   return (
