@@ -4,8 +4,8 @@ import Link from "next/link";
 import ProjectCard from "./components/projectcard";
 import profilePic from "../../public/PictureOfMe.png"
 
-
-
+{/* IMAGES */}
+import PlantGameImage from "../../public/PlantGame.png"
 
 export default function Home() {
   return (
@@ -73,7 +73,7 @@ export default function Home() {
       <section className="bg-stone-900 flex w-full justify-center">
         <div className="bg-stone-900 flex flex-wrap">
           <div className="gap-10 grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
-            <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 1" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit." />
+            <ProjectCard projecttype="Video Game" githubLink="https://github.com/Niall-Sharma/PlantGame/" pageLink="https://sirtago.itch.io/plant-frenzy" imageLink={PlantGameImage} projectName="Plant Frenzy" projectDescription="A cozy game about a plant enthusiant growing plants in their own home. Made in Godot using the C# language." />
             <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 2" imageLink={Niall} projectDescription="Officia et excepteur pariatur enim ullamco anim sint sunt sit ad minim aliquip sit. "  />
             <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." />
           </div> 
