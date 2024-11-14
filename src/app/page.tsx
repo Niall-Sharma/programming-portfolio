@@ -15,14 +15,14 @@ export default function Home() {
           <h1><span className="text-3xl text-white">Hi! My name is </span></h1>
           <h1 className="text-white uppercase text-6xl sm:text-8xl text-wrap"> Niall <br />Sharma <br /></h1>
           <h1 className="text-xl leading-loose text-white">I&apos;m A Full Stack Developer</h1>
-          <svg className="invert w-10 h-10 mt-10 animate-bounce ml-auto mr-auto" width="128" height="128" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 12c0-6.623-5.377-12-12-12s-12 5.377-12 12 5.377 12 12 12 12-5.377 12-12zm-1 0c0-6.071-4.929-11-11-11s-11 4.929-11 11 4.929 11 11 11 11-4.929 11-11zm-11.5 4.828l-3.763-4.608-.737.679 5 6.101 5-6.112-.753-.666-3.747 4.604v-11.826h-1v11.828z"/></svg>
+          <svg className="invert w-10 h-10 mt-10 animate-bounce ml-auto mr-auto" width="128" height="128" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M24 12c0-6.623-5.377-12-12-12s-12 5.377-12 12 5.377 12 12 12 12-5.377 12-12zm-1 0c0-6.071-4.929-11-11-11s-11 4.929-11 11 4.929 11 11 11 11-4.929 11-11zm-11.5 4.828l-3.763-4.608-.737.679 5 6.101 5-6.112-.753-.666-3.747 4.604v-11.826h-1v11.828z"/></svg>
         </div>
       </header>
       <section className=" py-20 bg-stone-900 flex flex-wrap lg:space-x-20 items-center justify-center">
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
             <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
             <p className="text-white text-lg">
-              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. I am pursuing a major in Computer Science and a minor in Cybersecurity. I&apos;ve spent large amounts of time learning web dev tools such as React and I&apos;m commited to always improving myself. 
+              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. Right now, I am on track to finish my degree in 2027, graduating early with a major in Computer Science and a minor in Applied Artifical Inteligence. I&apos;ve spent large amounts of time learning web dev tools such as React and I&apos;m commited to always improving myself. I am actively engaged in research that involves 
             </p>
           </div>
             <Image 
@@ -58,6 +58,10 @@ export default function Home() {
               <ul className="bg-stone-800 p-10 drop-shadow-lg">
                 <h1 className="font-bold pb-5 text-3xl">Other Tools</h1>
                   <li>VS Code</li>
+                  <li>Eclipse</li>
+                  <li>Intelij</li>
+                  <li>PyCharm</li>
+                  <li>MatLab</li>
                   <li>Git</li>
               </ul>
             </div>
