@@ -13,7 +13,7 @@ export default function ProjectCard( {pageLink, projectName, imageLink, projectD
                         />
                 </Link>
                 <div>
-                        <div className= "bg-stone-800 justify-center flex flex-grow">  
+                        <div className= "bg-stone-800 justify-center flex flex-grow text-pretty">  
                             <div className="p-10"> 
                                 <div>
                                     <p className="text-purple-400 font-thin">{projecttype}</p>
@@ -26,7 +26,7 @@ export default function ProjectCard( {pageLink, projectName, imageLink, projectD
                                         {projectName}
                                     </p>
                                  </div>
-                                    <p className="group-hover:opacity-100 group-hover:ease-in py-4 text-white mb-7">{projectDescription}</p>
+                                    <p className="group-hover:opacity-100 group-hover:ease-in py-4 text-white mb-7 text-pretty break-words">{projectDescription}</p>
                                 <Link href={pageLink} className="font-thin absolute left-0 bottom-0 ml-10 mb-5 outline outline-cyan-400 rounded-sm p-2 text-cyan-400 hover:bg-cyan-400 hover:text-white hover:ease-in transition-all outline-1"  target="_BLANK">
                                     Read More
                                 </Link>

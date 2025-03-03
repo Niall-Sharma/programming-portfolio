@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Niall from "../../public/dummy_1080x720_000000_a3b7e2.png";
 import Link from "next/link";
 import ProjectCard from "./components/projectcard";
 import profilePic from "../../public/PictureOfMe.png"
@@ -23,7 +22,7 @@ export default function Home() {
           <div className="w-full md:w-1/3 bg-stone-800 p-10 drop-shadow-xl">
             <h2 className="text-center font-bold text-4xl pb-10 text-white">About Me</h2>
             <p className="text-white text-lg">
-              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. Right now, I am on track to finish my degree in 2027, graduating early with a major in Computer Science and a minor in Applied Artifical Inteligence. I&apos;ve spent large amounts of time learning web dev tools such as React and I&apos;m commited to always improving myself. I am actively engaged in research that involves 
+              Hi! My name is Niall Sharma and I am a first year student at Iowa State Unviersity. Right now, I am on track to finish my degree in 2027, graduating early with a major in Computer Science and a minor in Applied Artifical Inteligence. I&apos;ve spent large amounts of time learning web dev tools such as React and I&apos;m commited to always improving myself. 
             </p>
           </div>
             <Image 
