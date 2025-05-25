@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Portfolio Website</h3>
 
   <p align="center">
-    project_description
+    This is the repository for my portfolio website
     <br />
     <a href="https://github.com/Niall-Sharma/programming-portfolio"><strong>Explore the docs »</strong></a>
     <br />
