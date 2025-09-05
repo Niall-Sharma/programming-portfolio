@@ -67,22 +67,7 @@ export default function Home() {
             </div>
           </div>
       </section>
-
-
-      <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-40">Featured Projects</h1>  
-      <section className="bg-stone-900 flex w-full justify-center">
-        <div className="bg-stone-900 flex flex-wrap">
-          <div className="gap-10 grid grid-cols-1 lg:grid-cols-3 bg-stone-900 lg:px-32 justify-center align-middle items-start w-full justify-items-center">
-            <ProjectCard projecttype="Video Game" githubLink="https://github.com/Niall-Sharma/PlantGame/" pageLink="https://sirtago.itch.io/plant-frenzy" imageLink={PlantGameImage} projectName="Plant Frenzy" projectDescription="A cozy game about a plant enthusiant growing plants in their own home. Made in Godot using the C# language." />
-            <ProjectCard projecttype="Video Game" githubLink="https://github.com/Niall-Sharma/EndlessMobileGame" pageLink="https://sirtago.itch.io/spaceshot" imageLink={SpaceShotImage} projectName="Space Shot" projectDescription="An endless game where you are trying to hit as many planets as you can. Can you beat my high score of 38? Made in Godot using GDScript." />
-            {/* <ProjectCard projecttype="Web App" githubLink="/" pageLink="/" projectName="test 3" imageLink={Niall} projectDescription="Ex velit ut occaecat amet aute esse sint consectetur velit aute tempor enim in. Proident nisi mollit deserunt duis amet eu. Cillum aliqua esse pariatur ipsum ut ut." /> */}
-          </div> 
-        </div>
-      </section>
-      <div className="flex min-h-full bg-stone-900 py-10 justify-center w-full">
-        <Link href={"/projects"} className="flex text-center px-5 py-3 rounded-md text-purple-500 border-solid border-purple-500 border hover:bg-purple-500 hover:text-white hover:ease-in transition-all">View All</Link>
-      </div>
-
+      
       <h1 className="min-h-full bg-stone-900 text-center text-4xl pb-12 text-white font-bold w-full py-40">Contact Me!</h1>  
       <section className="bg-stone-900 flex w-full justify-center">
         <div className="w-full sm:w-2/3 bg-stone-800 p-20 flex flex-wrap justify-center">

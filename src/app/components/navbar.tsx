@@ -9,8 +9,7 @@ export default function Navbar() {
             <nav className="relative md:absolute top-0 flex flex-wrap py-3 bg-transperant min-w-full">
                     <ul className="flex flex-col lg:flex-row">
                         <NavButton pageLink="/" pageName="Home" />
-                        <NavButton pageLink="/projects" pageName="Projects" />
-                        <NavButton pageLink="https://drive.google.com/file/d/1TflKrtzLYrtEo-_JIEg80P115d7zRQYQ/view?usp=sharing" target="_blank" pageName="Resume" />
+                        <NavButton pageLink="https://jae8t2r0llnag3wm.public.blob.vercel-storage.com/Niall%20Resume%2025-09-04.pdf" target="_blank" pageName="Resume" />
                         <NavButton pageLink="/contact" pageName="Contact" />
                     </ul>
                     <ul className="flex end-0 items-center ml-auto mr-10 flex-row">
