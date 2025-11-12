@@ -2,6 +2,7 @@ import ProjectCard from "../components/projectcard";
 import React from "react";
 import PlantGameImage from "../../../public/PlantGame.png";
 import SpaceShotImage from "../../../public/SpaceShotImage.png";
+import TodoLogo from "../../../public/todo-logo.jpg";
 export default function Projects() {
     return (
         <main className="flex min-h-screen items-center justify-center md:p-24 bg-stone-900 flex-wrap">
@@ -26,7 +27,7 @@ export default function Projects() {
                     projecttype="App"
                     githubLink="https://github.com/Niall-Sharma/RustCliTodo"
                     pageLink=""
-                    imageLink={PlantGameImage}
+                    imageLink={TodoLogo}
                     projectName="CLI To-Do List in Rust"
                     projectDescription="A simple command-line to-do list application written in Rust. Manage your tasks directly from your terminal—add, list, complete, and remove them with ease!"
                 />
