@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import NavButton from "./navbutton";
-import { useRef } from "react";
+import React from "react";
 // import resumePDF from "";
 export default function Navbar() {
     return (

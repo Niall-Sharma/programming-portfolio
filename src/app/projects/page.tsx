@@ -1,5 +1,5 @@
 import ProjectCard from "../components/projectcard";
-import dummyImage from "../../../public/dummy_1080x720_000000_a3b7e2.png";
+import React from "react";
 import PlantGameImage from "../../../public/PlantGame.png";
 import SpaceShotImage from "../../../public/SpaceShotImage.png";
 export default function Projects() {
