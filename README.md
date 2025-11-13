@@ -1,3 +1,6 @@
+[![lint](https://github.com/Niall-Sharma/programming-portfolio/actions/workflows/lint.yml/badge.svg)](https://github.com/Niall-Sharma/programming-portfolio/actions/workflows/lint.yml)
+[![Node.js CI](https://github.com/Niall-Sharma/programming-portfolio/actions/workflows/node-ci.yml/badge.svg)](https://github.com/Niall-Sharma/programming-portfolio/actions/workflows/node-ci.yml)
+
 # Niall Sharma – Personal Portfolio Website
 
 This is the source code for the personal portfolio website of [Niall Sharma](https://niall-sharma.vercel.app/). The site showcases personal information, skills, projects, and contact details.  
