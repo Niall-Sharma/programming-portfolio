@@ -2,7 +2,6 @@
 import Link from "next/link";
 import NavButton from "./navbutton";
 import React from "react";
-// import resumePDF from "";
 export default function Navbar() {
     return (
         <>
@@ -11,7 +10,7 @@ export default function Navbar() {
                     <NavButton pageLink="/" pageName="Home" />
                     <NavButton pageLink="/projects" pageName="Projects" />
                     <NavButton
-                        pageLink="https://jae8t2r0llnag3wm.public.blob.vercel-storage.com/Niall%20Resume%2025-09-04.pdf"
+                        pageLink="https://jae8t2r0llnag3wm.public.blob.vercel-storage.com/Niall%20Resume%2011-12-25"
                         target="_blank"
                         pageName="Resume"
                     />
