@@ -12,11 +12,8 @@ Built with modern tools and designed to be responsive.
 
 - **Frontend Framework**: React with Next.js  
 - **Styling**: Tailwind CSS
-- **Languages**: JavaScript
+- **Languages**: TypeScript
 - **Deployment**: Vercel  
-- **Tools & Workflow**:  
-  - VS Code  
-  - Git / GitHub for version control  
 
 ---
 
