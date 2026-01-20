@@ -10,7 +10,7 @@ export default function Navbar() {
                     <NavButton pageLink="/" pageName="Home" />
                     <NavButton pageLink="/projects" pageName="Projects" />
                     <NavButton
-                        pageLink="https://jae8t2r0llnag3wm.public.blob.vercel-storage.com/Niall%20Resume%2011-12-25"
+                        pageLink="https://jae8t2r0llnag3wm.public.blob.vercel-storage.com/01-20-26_Niall_Resume.pdf"
                         target="_blank"
                         pageName="Resume"
                     />
