@@ -4,6 +4,8 @@ import PlantGameImage from "../../../public/PlantGame.png";
 import SpaceShotImage from "../../../public/SpaceShotImage.png";
 import TodoLogo from "../../../public/todo-logo.jpg";
 import MarkdownLogo from "../../../public/Markdown-Logo.jpg";
+import RustLogo from "../../../public/Rust-Logo.jpg";
+
 export default function Projects() {
   return (
     <main className="flex min-h-screen items-center justify-center md:p-24 bg-stone-900 flex-wrap">
@@ -35,10 +37,18 @@ export default function Projects() {
         <ProjectCard
           projecttype="App"
           githubLink="https://github.com/Niall-Sharma/mkweb"
-          pageLink=""
+          pageLink="https://github.com/Niall-Sharma/mkweb"
           imageLink={MarkdownLogo}
           projectName="Mkweb"
           projectDescription="A Markdown to HTML converter and server written entirely in Rust. Meant to be used with Obsidian Vaults."
+        />
+        <ProjectCard
+          projecttype="App"
+          githubLink="https://github.com/Niall-Sharma/emu"
+          pageLink="https://github.com/Niall-Sharma/emu"
+          imageLink={RustLogo}
+          projectName="Emu"
+          projectDescription="Stack-based programming language interpreter. Written in Rust."
         />
         {/*<ProjectCard projecttype="Web App" githubLink="/" pageLink="/" imageLink={dummyImage} projectName="Test 4" projectDescription="Eiusmod ex esse dolore aute ut consectetur incididunt." /> */}
       </div>
