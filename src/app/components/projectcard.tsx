@@ -1,7 +1,17 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-export default function ProjectCard({ pageLink, projectName, imageLink, projectDescription, githubLink, projecttype }: any) {
+
+type ProjectCardProps = {
+  pageLink: string;
+  projectName: string;
+  imageLink: string;
+  projectDescription: string;
+  githubLink: string;
+  projecttype: string;
+};
+
+export default function ProjectCard({ pageLink, projectName, imageLink, projectDescription, githubLink, projecttype }: ProjectCardProps) {
   return (
     <div className="group relative bg-stone-800 drop-shadow-xl  max-w-sm break-all hover:scale-105 hover:ease-in-out transition-transform duration-500">
       <Link href={pageLink} >
