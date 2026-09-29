@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import Link from "next/link";
 
 type FeaturedProjectCardProps = {
   pageLink: string;
   projectName: string;
-  imageLink: string;
+  imageLink: string | StaticImageData;
   projectDescription: string;
   githubLink: string;
   projecttype: string;
