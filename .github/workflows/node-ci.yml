@@ -12,7 +12,6 @@ env:
   NODE_ENV: test
   JWT_SECRET: ${{ secrets.JWT_SECRET }}
 jobs:
-jobs:
   build:
     runs-on: ubuntu-latest
 
