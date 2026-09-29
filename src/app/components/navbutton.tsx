@@ -4,6 +4,7 @@ import React from "react";
 type NavButtonProps = {
   pageLink: string;
   pageName: string;
+  target?: string;
 }
 
 export default function NavButton({ pageLink, pageName }: NavButtonProps) {
