@@ -12,20 +12,15 @@ env:
   NODE_ENV: test
   JWT_SECRET: ${{ secrets.JWT_SECRET }}
 jobs:
+jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x, 22.x, 24.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
       - run: bun install --frozen-lockfile
-      - run: bun run build --if-present
+      - run: bun run lint
+      - run: bun run build
